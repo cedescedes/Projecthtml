@@ -1,0 +1,103 @@
+
+<html>
+
+<style>
+
+header{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+nav{
+height: 80px:
+background: #85D0FF;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 5px;
+}
+
+
+.logo-container {
+  cursor: pointer;
+}
+
+
+.site{
+background: #E3C8FF;
+}
+
+.site-container{
+display: grid;
+grid-template-columns: 1fr 1fr:
+height: 95vh;
+padding: 7rem;
+}
+
+
+.column-left h1{
+displays: flex;
+flex-directions: column;
+justify-content: center;
+align-items: flex-start;
+color: pink;
+padding: 6rem;
+}
+
+.column-left h1{
+margin-bottom: 1rem;
+font-size: 3rem;
+}
+
+.column-left p{
+margin-botom: 2rem;
+font-size: 1.5rem;
+line-height: 1.5;
+}
+
+
+</style> 
+
+
+<nav>
+
+<div class="logo-container" onclick="window.location.href='cybersecurityweb.html';">
+<img src="logopurple.png" alt="Logo" class="logo" aligh="left" width="70" height="50"></div>
+<a href="Contact.html">Contact</a>
+</nav>
+
+
+<body bgcolor="#B497FF">
+
+
+<section class="site">
+<div class="site-container">
+<div class="column-left">
+
+
+<p><pre><span class="inner-pre" style="font-size: 40px">
+Who we are
+</span></pre>
+
+<p><pre><span class="inner-pre" style="font-size: 20px">
+SCI is a private company based in Newcastle, England, first established in 
+June 2004. We offer services to the community to protect and prevent from cyber 
+attacks and have seen great reactions and results. 
+
+We continue to deliver innovation to enable secure digital transformation and aim
+to be the leading cyber protection company in the UK. 
+</span></pre></p>
+
+<div class="column-right">
+
+<img src="https://i.pinimg.com/736x/44/bd/da/44bdda5de3caf84daddab7fd296bec2c.jpg" align="right" width="300" height="300">
+</div>
+</div>
+</section>
+
+
+</body>
+
+
+</html>

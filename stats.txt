@@ -1,0 +1,59 @@
+
+<html>
+
+<style>
+
+
+header{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+nav{
+height: 80px:
+background: #85D0FF;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 5px;
+}
+
+.logo-container {
+  cursor: pointer;
+}
+
+nav a{
+color: white;
+padding: 0 1.5rem;
+}
+
+
+nav a:hover{
+color: yellow;
+}
+
+</style>
+
+<body bgcolor="#003EA">
+
+<nav>
+<div class="logo-container" onclick="window.location.href='cybersecurityweb.html';">
+<img src="logoblue.png" alt="Logo" class="logo" align="left" width="70" height="50"></div>
+<a href="About.html">About</a>
+<a href="Contact.html">Contact</a>
+</nav>
+
+<body text="white">
+<p><pre><span class="inner-pre" style="font-size: 20px">
+Cyber attacks may be more common than you think.
+
+While there has been a decrease in attacks over the last 6 years, 
+in 2022, 39% of business's in the UK still faced some sort of threat.
+The most common threat being phishing attempts (83%) and 21% identified threats
+such as denial of service, malware, or ransomeware attack.
+
+From those reporting the cyber attacks, 31% of business's and 26% of 
+charities say they were attacked at least once a week.
+
+</body></html>
